@@ -1,0 +1,5 @@
+### Read Orders as Mia
+
+GET http://localhost:8080/odata/v4/OrdersService/Orders?$expand=items
+Accept: application/json
+Authorization: Basic sabine:pass_sabine

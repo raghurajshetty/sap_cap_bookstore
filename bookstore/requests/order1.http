@@ -1,0 +1,14 @@
+### Create Order
+
+POST http://localhost:8080/odata/v4/OrdersService/Orders
+Content-Type: application/json
+Authorization: Basic mia:pass_mia
+
+{
+  "items": [
+    {
+      "book_ID": "6869961b-c533-42b7-9d60-30fae4f46ab6",
+      "amount": 2
+    }
+  ]
+}
